@@ -3,7 +3,7 @@ FROM ${IMAGE}
 # renovate: datasource=github-tags packageName=nodejs/node versioning=node
 ENV NODE_VERSION=10.19.0
 # renovate: datasource=github-releases packageName=composer/composer
-ENV COMPOSER_VERSION=1.9.3
+ENV COMPOSER_VERSION=1.10.27
 # renovate: datasource=docker packageName=docker versioning=docker
 ENV DOCKER_VERSION=19.03.1
 # renovate: datasource=npm packageName=yarn
