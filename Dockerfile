@@ -1,4 +1,4 @@
-ARG IMAGE=node:12@sha256:6e5264cd4cfaefd7174b2bc10c7f9a1c2b99d98d127fc57a802d264da9fb43bd
+ARG IMAGE=node:12@sha256:3a69ea1270dbf4ef20477361be4b7a43400e559c6abdfaf69d73f7c755f434f5
 FROM ${IMAGE}
 # renovate: datasource=github-tags depName=nodejs/node versioning=node
 ENV NODE_VERSION=10.19.0
