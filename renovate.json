@@ -4,7 +4,7 @@
       "customType": "regex",
       "fileMatch": ["^Dockerfile$"],
       "matchStrings": [
-        "datasource=(?<datasource>.*?) packageName=(?<packageName>.*?)( versioning=(?<versioning>.*?))?\\sENV .*?_VERSION=(?<currentValue>.*)\\s"
+        "# renovate: datasource=(?<datasource>[a-z-]+?) packageName=(?<packageName>.+?)(?: versioning=(?<versioning>[a-z-]+?))?\\s(?:ENV|ARG) .+?_VERSION=(?<currentValue>.+?)\\s"
       ],
       "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}"
     }
