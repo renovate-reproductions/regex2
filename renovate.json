@@ -1,4 +1,5 @@
 {
+  "enabledManagers": ["custom"],
   "customManagers": [
     {
       "customType": "regex",
