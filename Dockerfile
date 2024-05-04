@@ -5,4 +5,4 @@ ENV COMPOSER_VERSION=1.9.3
 # renovate: datasource=docker packageName=docker versioning=docker
 ENV DOCKER_VERSION=19.03.1
 # renovate: datasource=npm packageName=yarn
-ENV YARN_VERSION=1.19.1
+ENV YARN_VERSION=1.22.22
